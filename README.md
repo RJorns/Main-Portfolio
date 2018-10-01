@@ -1,2 +1,2 @@
 # Main-Portfolio
-My Personla Web Develop Portfolio
+My Personla Web Developer Portfolio
