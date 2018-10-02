@@ -23,7 +23,7 @@ header {
 }
 
 .header-image {
-  background-image: url('/assets/images/brooke-lark-385507-unsplash.jpg');
+  background-image: url('/assets/img/brooke-lark-385507-unsplash.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
@@ -70,6 +70,7 @@ header {
   position: relative;
   overflow: hidden;
 }
+
 .hvr-underline-from-center:before {
   content: "";
   position: absolute;
@@ -86,6 +87,7 @@ header {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
@@ -202,18 +204,12 @@ header {
   grid-area: d;
 }
 
-/* .food-container div{
-  overflow:hidden;
-} */
-
 img {
   width: 100%;
   height: 100%;
   object-fit:cover;
   box-shadow: var(--pic-box-shadow);
 }
-
-
 
 /* Types of Food  */
 
