@@ -1,0 +1,228 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-image: url('/Users/rogerjorns/Desktop/html5up-overflow/assets/css/images/overlay.png'), url('/Users/rogerjorns/Desktop/Portfolio/Single Page Portfolio/assets/pics/070 Aqua Splash.png');
+  background-size: auto, cover;
+  background-position: center center;
+  background-repeat: repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+:root {
+  --title-font: 'Lato', sans-serif;
+  --text-shadow: 0.125em 0.125em 0.9375em rgba(150, 150, 150, 0.51);
+}
+
+.title {
+  font-family: var(--title-font);
+  font-weight: 700;
+}
+
+h1,
+p {
+  text-shadow: var(--text-shadow);
+}
+
+a {
+  cursor: pointer;
+}
+
+/* Button */
+
+
+.btn {
+  margin: 0 auto;
+  background: #f9f9f9;
+  color: grey;
+  box-shadow: inset 0px 0px 10px 0px rgba(204,204,204,0.7);
+  border: none;
+  border-radius: 5em;
+  padding: 1.5em 5em;
+  text-transform: uppercase;
+  font-size: .95em;
+  font-weight: lighter;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+.first-btn {
+  scroll-behavior: smooth;
+}
+
+.second-btn {
+  scroll-behavior: smooth;
+}
+
+
+/* Header */
+
+.main-header {
+  margin: 2em 1em;
+  padding: 7em 2em;
+}
+
+hr {
+  height: 1px;
+  width: 15em;
+  border: 0;
+  background: #333;
+  background-image: linear-gradient(left, #e1e1e1, #777, #e1e1e1);
+}
+
+.hr2 {
+  width: 10em;
+}
+
+.logo {
+  color: #cecece;
+  text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.4);
+}
+
+.logo-title {
+  display: flex;
+  justify-content: space-around;
+  font-size: 7em;
+}
+
+.logo-paragraph {
+  margin-bottom: 2em;
+  font-size: 2em;
+  letter-spacing: .15em;
+}
+
+
+/* About us */
+
+
+.about-us {
+  margin: 2em 0;
+  padding: 7em 2em;
+  background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ed86b965826826e3dd08bb3b33726543&auto=format&fit=crop&w=2807&q=80');
+  background-size: cover;
+  background-position: center;
+  color: #e5e5e5;
+}
+
+.us-title {
+  font-size: 3.5em;
+}
+
+.us-paragraph {
+  margin-bottom: 5em;
+}
+
+
+/* Portfolio */
+
+.work-header {
+  width: auto;
+  height: 30em;
+  margin-bottom: 5em;
+  background-image: url('https://images.unsplash.com/photo-1515343480029-43cdfe6b6aae?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=250fd87139bfce9117534e300a5bf25b&auto=format&fit=crop&w=2900&q=80');
+  background-position: center;
+  background-size: cover;
+}
+
+.work-title {
+  color: #e5e5e5;
+  font-size: 4em;
+  padding-top: 3em;
+}
+
+.gallery-pic {
+  width: auto;
+  height: 15em;
+  margin: .5em;
+  box-shadow: inset 0px 0px 10px 0px rgba(204,204,204,0.7);
+
+}
+
+.img-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+/* Interest */
+
+.interest {
+  color: #e5e5e5;
+}
+
+.interest-paragraph {
+  text-transform: uppercase;
+}
+
+.fas {
+  color: #e5e5e5;
+  font-size: 4em;
+  text-shadow: 0.5px 0.5px 0.5px rgba(255,255,255,0.6);
+  background-clip: text;
+}
+
+/* Form */
+
+
+.submission-form {
+  background: rgba(206, 206, 206, 0.4);
+  max-width: 31.25em;
+  width: auto;
+  margin: 3em auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 8px 14px 28px -5px rgba(0,0,0,0.68);
+}
+
+label {
+  display: block;
+  padding: 8px 0 1px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+input, textarea {
+  display: block;
+  background: white;
+  width: 100%;
+  border: 1.25px solid grey;
+  padding: .25rem;
+  border-radius: 25px
+}
+
+.grid-pic {
+  background-image: url('https://images.unsplash.com/photo-1525547867522-cf8070ed441c?ixlib=rb-0.3.5&s=a049778cdf785a90426d3bd56e6732f8&auto=format&fit=crop&w=2850&q=80');
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  width: auto;
+  height: 125px;
+  padding: 0;
+  font-size: 2em;
+  color: white;
+}
+
+.send-btn {
+  border: 0;
+  background: white;
+  padding: 0.0625em;
+  color: grey;
+  margin-top: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.send-btn:hover {
+  background: grey;
+  color: white;
+  transition: .35s background ease;
+}
