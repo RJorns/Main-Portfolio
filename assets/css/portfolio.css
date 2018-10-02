@@ -141,6 +141,58 @@ hr {
 }
 
 
+/* Form */
+
+.submission-form {  
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 2rem; 
+  border-radius: 10px;
+  box-shadow: 8px 14px 28px -5px rgba(0,0,0,0.68);
+}
+
+label {
+  display: block;
+  padding: 8px 0 1px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  border: 1.25px solid grey;
+  padding: .25rem;
+  border-radius: 25px
+}
+
+.grid-pic {
+  background-image: url('https://images.unsplash.com/photo-1502290822284-9538ef1f1291?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a3aa499ed53e860fa8338e6e8cbac1c0&auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  display: grid;
+  width: auto;
+  height: 125px;
+  justify-items: center;
+  padding: 0;
+  font-size: 2em;
+  color: white;
+}
+
+.send-btn {
+  border: 0;
+  background: gray;
+  padding: 1px;
+  color: white;
+  margin-top: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.send-btn:hover {
+  background: dodgerblue;
+  transition: .3s background ease;
+}
 
 
 
