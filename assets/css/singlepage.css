@@ -1,7 +1,7 @@
 body {
   box-sizing: border-box;
   margin: 0;
-  background-image: url('/assets/css/images/overlay.png'), url('/assets/pics/070 Aqua Splash.png');
+  background-image: url('/assets/css/img/overlay.png'), url('/assets/img/070 Aqua Splash.png');
   background-size: auto, cover;
   background-position: center center;
   background-repeat: repeat, no-repeat;
