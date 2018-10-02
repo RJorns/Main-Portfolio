@@ -144,7 +144,7 @@ hr {
 /* Form */
 
 .submission-form {  
-  max-width: 500px;
+  max-width: 31.25em;
   margin: 3rem auto;
   padding: 2rem; 
   border-radius: 10px;
@@ -154,7 +154,7 @@ hr {
 label {
   display: block;
   padding: 8px 0 1px;
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight: 300;
 }
 
@@ -163,7 +163,7 @@ input, textarea {
   width: 100%;
   border: 1.25px solid grey;
   padding: .25rem;
-  border-radius: 25px
+  border-radius: 25px;
 }
 
 .grid-pic {
@@ -171,7 +171,7 @@ input, textarea {
   background-size: cover;
   display: grid;
   width: auto;
-  height: 125px;
+  height: 7.8125em;
   justify-items: center;
   padding: 0;
   font-size: 2em;
@@ -183,7 +183,7 @@ input, textarea {
   background: gray;
   padding: 1px;
   color: white;
-  margin-top: 30px;
+  margin-top: 1.875em;
   text-transform: uppercase;
   cursor: pointer;
   border-radius: 5px;
