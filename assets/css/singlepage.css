@@ -98,6 +98,13 @@ hr {
   letter-spacing: .15em;
 }
 
+i.fa-arrow-left {
+  color: black;
+  font-size: 1.5em;
+  text-shadow: none;
+  background-clip: none;
+}
+
 
 /* About us */
 
