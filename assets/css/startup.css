@@ -394,6 +394,10 @@ i.fab {
     padding: 0;
   }
 
+  .fa-arrow-left {
+    padding: 0;
+  }
+
   h2.services {
     text-align: center;
   }
@@ -404,7 +408,7 @@ i.fab {
     text-align: center;
   }
 
-  i.fas {
+  .fas {
     padding: .75em 0;
   }
 
