@@ -69,6 +69,14 @@ a {
   padding: 13em 0;
   text-align: right;
 }
+i.fa-arrow-left {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
 
 /* Section 1 */
