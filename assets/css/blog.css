@@ -17,6 +17,8 @@ body {
   grid-gap: 1em;
 }
 
+/* Header */
+
 header {
   background-image: url('https://images.unsplash.com/photo-1534810268440-82f454525515?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9050c904cd74164ac88299db1e31f50c&auto=format&fit=crop&w=2891&q=80');
   background-position: center;
@@ -30,11 +32,17 @@ header {
   font-size: 5em;
   text-align: center;
   margin: 0 auto;
-  padding: 3.25em 0;
+  padding: 2em 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   color: lightgrey;
 }
+
+.fas {
+  margin-top: 2.5em;
+  font-size: 1.5em;
+}
+
 
 /* Nav */
 
