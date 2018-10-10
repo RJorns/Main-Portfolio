@@ -57,8 +57,11 @@ hr {
 
 
 .sidebar-wrapper {
-  background: linear-gradient(to bottom, #1488cc, #2b32b2);
   box-shadow: inset 0px 1px 40px -9px rgba(71,68,71,1);
+  /* background: linear-gradient(to bottom, #1488cc, #2b32b2); */
+  background-color: #0073ff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23878787' fill-opacity='0.9' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  background-position: center;
 }
 
 .sidebar-title {
