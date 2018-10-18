@@ -35,6 +35,11 @@ hr {
   text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
+.about-par,
+.nav-icon {
+  font-family: 'Raleway', sans-serif;
+}
+
 /* Header */
 
 
@@ -251,6 +256,10 @@ input, textarea {
   .social-nav {
     margin-top: 14em;
     padding: 0;
+  }
+  
+  .nav-icon {
+    font-size: 1.15em;
   }
 
   hr {
