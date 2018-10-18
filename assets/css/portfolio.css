@@ -257,10 +257,6 @@ input, textarea {
     margin-top: 14em;
     padding: 0;
   }
-  
-  .nav-icon {
-    font-size: 1.15em;
-  }
 
   hr {
     grid-column: 2;
