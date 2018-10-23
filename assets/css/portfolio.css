@@ -65,7 +65,6 @@ hr {
 
 .sidebar-wrapper {
   box-shadow: inset 0px 1px 40px -9px rgba(71,68,71,1);
-  /* background: linear-gradient(to bottom, #1488cc, #2b32b2); */
   background-color: #0073ff;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23878787' fill-opacity='0.9' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
   background-position: center;
@@ -113,6 +112,10 @@ hr {
   color: white;
 }
 
+.social {
+  display: none;
+}
+
 /* About */
 
 .about-title {
@@ -122,6 +125,15 @@ hr {
 .about-par {
   padding: 2em 3em;
   font-size: 1.25em;
+}
+
+.btn {
+  background: #0073ff;
+  outline: none;
+  cursor: pointer;
+  border: 7px solid #0073ff;
+  border-radius: .25em;
+  padding: 1em 5em;
 }
 
 /* Portfolio */
@@ -159,8 +171,10 @@ hr {
 
 .submission-form {
   max-width: 31.25em;
-  margin: 4em 2em;
-  padding: 2rem;
+/*   margin: 4em 2em;
+  padding: 2rem; */
+  margin: 4em 10em;
+  padding: 1.5em;
   border-radius: 10px;
   box-shadow: 8px 14px 28px -5px rgba(0,0,0,0.68);
   background-color: #ffffff;
@@ -210,6 +224,13 @@ input, textarea {
 }
 
 
+/* Footer */
+
+.footer {
+  background-color: #0073ff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23878787' fill-opacity='0.9' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  background-position: center;
+}
 
 
 
@@ -232,9 +253,13 @@ input, textarea {
     position: fixed;
   }
 
+  
   .header-wrapper,
   .about-wrapper,
-  .about {
+  .about,
+  .work-portfolio,
+  .submission-form,
+  hr {
     grid-column: 2;
   }
 
@@ -250,12 +275,24 @@ input, textarea {
   }
 
   .nav-list {
-    padding: 1em 0;
+    padding: .5em 0;
   }
 
   .social-nav {
-    margin-top: 14em;
+    display: flex;
+    justify-content: space-around;
     padding: 0;
+    margin-top: 15em;
+    font-size: 1.15em;
+  }
+
+  .icon-list {
+    list-style: none;
+  }
+
+  .fab {
+    text-decoration: none;
+    color: white;
   }
 
   hr {
@@ -265,6 +302,15 @@ input, textarea {
 
   .work-portfolio {
     grid-column: 2;
+  }
+  
+  .btn {
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: 7px solid #0073ff;
+    border-radius: .25em;
+    padding: 1em 5em;
   }
 
   .img-gallery {
@@ -281,6 +327,10 @@ input, textarea {
   .submission-form {
     grid-column: 2;
     margin: 2em 15em;
+  }
+  
+  .footer {
+    display: none;
   }
 
 }
