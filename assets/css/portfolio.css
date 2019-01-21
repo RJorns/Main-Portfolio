@@ -191,6 +191,13 @@ hr {
   justify-content: space-around;
 }
 
+a.sample-site {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.15em;
+  color: #0073ff;
+}
+
 
 /* Form */
 
