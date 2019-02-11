@@ -5,15 +5,23 @@ body, * {
   font-family: 'Raleway', sans-serif;
 }
 
+:root {
+  --main-bg-color: #595F6D;
+  --font-color: #71ACB4;
+  --main-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --extra-font: 'Nunito', sans-serif;
+}
+
 .main {
   display: grid;
 }
 
 .btn {
-  background: #0073ff;
+  background: var(--main-bg-color);
   outline: none;
   cursor: pointer;
-  border: 7px solid #0073ff;
+  border: 7px solid var(--main-bg-color);
   border-radius: .25em;
   padding: 1em 5em;
   margin-bottom: 5em;
@@ -24,17 +32,17 @@ body, * {
     background: none;
     outline: none;
     cursor: pointer;
-    border: 7px solid #0073ff;
+    border: 7px solid var(--main-bg-color);
     border-radius: .25em;
     padding: 1em 5em;
     margin-bottom: 5em;
   }
 
   .btn:hover {
-    background: #0073ff;
+    background: var(--main-bg-color);
     transform: scale(1.25);
     transition: all ease-in-out .3s;
-    color: white;
+    color: var(--font-color);
     font-size: .9em;
   }
 }
@@ -47,10 +55,10 @@ body, * {
   justify-content: space-between;
   align-items: center;
   padding: 2em;
-  background-color: #0073ff;
+  background-color: var(main-bg-color);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23878787' fill-opacity='0.9' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
   background-position: center;
-  color: white;
+  color: var(-font-color);
   height: 5em;
   box-shadow: 0px 2px 10px 1px rgba(143,143,143,0.6);
   position: sticky;
@@ -70,7 +78,7 @@ body, * {
 .nav-link {
   list-style: none;
   text-decoration: none;
-  color: white;
+  color: var(--font-color);
 }
 
 
@@ -121,13 +129,13 @@ li {
 /* Footer */
 
 .footer {
-  background-color: #0073ff;
+  background-color: var(--main-bg-color);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23878787' fill-opacity='0.9' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
   background-position: center;
 }
 
 .footer-credit-mobile {
-  color: white;
+  color: var(--font-color);
   font-size: .75em;
   font-weight: lighter;
   font-family: 'Raleway', sans-serif;
@@ -139,7 +147,7 @@ li {
 
 
 .social-nav {
-  color: #dddddd;
+  color: var(--font-color);
   display: flex;
   justify-content: space-around;
   padding: 0;
@@ -152,7 +160,7 @@ li {
 
 .fab {
   text-decoration: none;
-  color: white;
+  color: var(--font-color);
 }
 
 .social {
