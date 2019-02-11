@@ -345,7 +345,7 @@ input, textarea {
 
   .fab {
     text-decoration: none;
-    color: white;
+    color: var(--font-color);
   }
 
   .footer-credit-desk {
