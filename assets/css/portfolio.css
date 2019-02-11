@@ -122,7 +122,7 @@ hr {
 
 .fab {
   text-decoration: none;
-  color: white;
+  color: var(--font-color);
 }
 
 .social {
