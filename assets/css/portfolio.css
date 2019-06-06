@@ -210,10 +210,6 @@ a.sample-site {
 
 /* Form */
 
-body {
-  background: #f7f7f7;
-}
-
 .form-title {
 	color:  #71ACB4;
 	font-family: 'Montserrat', sans-serif;
@@ -236,8 +232,8 @@ input, textarea {
 
 .form-box {
   max-width: 30em;
-  margin: auto;
   padding: 3em;
+margin: 2em;
 }
 
 .form-inputs {
@@ -255,17 +251,6 @@ input, textarea {
   font-size: 1em;
   color:  #71ACB4;
 }
-
-/* .contact-wrapper {
-  margin: 2em;
-}
-
-.contact-title {
-  font-family: var(--extra-font);
-  color: var(--font-color);
-  margin: .25em 0 2em 0;
-}
- */
 
 /* Footer */
 
