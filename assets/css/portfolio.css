@@ -210,47 +210,47 @@ a.sample-site {
 
 /* Form */
 
-.form-title {
-	color:  #71ACB4;
-	font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-
-label, input {
-	color:  #595F6D;
-	font-family: 'Raleway', sans-serif;
-}
-
-input, textarea {
-  width: 100%;
-}
-
-input, textarea {
-	border: 1px solid grey;
-	border-radius: .225em; 
-}
-
 .form-box {
   max-width: 30em;
-  padding: 3em;
-margin: 2em;
+  padding: 2em;
+  margin: 2em;
+}
+
+.form-title, p {
+  font-family: var(--extra-font);
+  color: var(--font-color);
 }
 
 .form-inputs {
-	margin: .75em 0;
+margin: .75em 0;
+}
+
+label, input {
+color:  #595F6D;
+font-family: 'Raleway', sans-serif;
+}
+
+input, textarea {
+width: 100%;
+}
+
+input, textarea {
+border: 1px solid grey;
+border-radius: .225em;
 }
 
 .btn-primary {
-	background: #595F6D;
-  outline: none;
-	cursor: pointer;
-  border: 1px solid #595F6D;
-  border-radius: .25em;
-  padding: 1em;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1em;
-  color:  #71ACB4;
+background:  var(--main-bg-color);
+outline: none;
+cursor: pointer;
+border: 1px solid var(--main-bg-color);
+border-radius: .25em;
+padding: 1em;
+font-family: 'Raleway', sans-serif;
+font-size: 1em;
+color: var(--font-color);
 }
+
 
 /* Footer */
 
@@ -378,6 +378,6 @@ margin: 2em;
 
 @media (max-width: 1024px) and (min-width: 768px) {
   .form-box {
-    margin: 2em 5em;
+    margin: 1em 10em;
   }
 }
