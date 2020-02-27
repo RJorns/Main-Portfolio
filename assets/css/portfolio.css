@@ -19,6 +19,10 @@ body {
   --extra-font: 'Nunito', sans-serif;
 }
 
+.hidden {
+  display: none;
+}
+
 .main {
   display: grid;
 }
