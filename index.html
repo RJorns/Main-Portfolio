@@ -133,13 +133,28 @@
 
     <hr>
 
-    
+	<!-- Fake Contact Form -->
+	<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+		<p class="hidden">
+			<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+		</p>
+		<p>
+			<label>Email: <input type="text" name="email" /></label>
+		</p>
+		<p>
+    			<label>Message: <textarea name="message"></textarea></label>
+		</p>
+		<p>
+    			<button type="submit">Send</button>
+  		</p>
+	</form>
+	  
     <!-- Contact Form -->
 
     <div class="form-box">
       <h1 class="form-title">Ready to take your business online?</h1>
       <h2 class="form-title">Contact me today!</h2>
-      <form action="POST" data-netlify="true">
+      <form action="POST" data-netlify-recaptcha="true" data-netlify="true">
 	<div class="form-name form-inputs">
 	 <label for="name">Name</label>
 	 <input id="name" type="text" name="Name">
@@ -152,6 +167,7 @@
 	 <label for="message">Message</label>
 	 <textarea id="message" name="Message"></textarea>
 	</div>
+	<div data-netlify-recaptcha="true"></div>
 	<div>
 	 <input class="btn-primary" type="submit" value="submit" />
 	</div>
