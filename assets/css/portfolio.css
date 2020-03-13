@@ -19,7 +19,8 @@ body {
   --extra-font: 'Nunito', sans-serif;
 }
 
-.hidden {
+.hidden, 
+.fake-form {
   display: none;
 }
 
@@ -370,7 +371,8 @@ color: var(--font-color);
     display: none;
   }
   
-  .hidden {
+  .hidden, 
+  .fake-form {
     display: none;
   }
 
@@ -382,7 +384,8 @@ color: var(--font-color);
     min-width: 33.5%;
   }
   
-  .hidden {
+  .hidden, 
+  .fake-form {
   display: none;
   }
 
@@ -394,7 +397,9 @@ color: var(--font-color);
     margin: 1em 10em;
   }
   
-  .hidden {
+  .hidden, 
+  .fake-form {
   display: none;
   }
+  
 }
