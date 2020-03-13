@@ -256,11 +256,6 @@ font-size: 1em;
 color: var(--font-color);
 }
 
-#captcha {
-  width: 0;
-  height: 0;
-}
-
 
 /* Footer */
 
