@@ -369,6 +369,10 @@ color: var(--font-color);
   .footer {
     display: none;
   }
+  
+  .hidden {
+    display: none;
+  }
 
 }
 
